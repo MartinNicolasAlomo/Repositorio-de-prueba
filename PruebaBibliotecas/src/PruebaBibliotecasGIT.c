@@ -17,7 +17,7 @@ int main(void) {
 	int edad;
 	int peso;
 	char letra;
-	int respuesta;
+	//int respuesta;
 
 	if (utn_getCaracter(&letra, "letra?: ", "Error! ingrese una letra de peso entre A y J: ", 'A', 'J', 3) == 0) {
 		printf("La letra es %c\n", letra);
@@ -26,7 +26,7 @@ int main(void) {
 		printf("ERROR\n");
 	}
 
-	respuesta = utn_getNumero(&edad, "edad?: ", "Error! ingrese un rango de edad entre 0 y 120: ", 0, 120, 2);
+	/*respuesta = utn_getNumero(&edad, "edad?: ", "Error! ingrese un rango de edad entre 0 y 120: ", 0, 120, 2);
 	if (respuesta == 0) {
 		printf("La edad es %d\n", edad);
 	}
@@ -40,7 +40,7 @@ int main(void) {
 	}
 	else {
 		printf("ERROR\n");
-	}
+	}*/
 
 	return EXIT_SUCCESS;
 }
